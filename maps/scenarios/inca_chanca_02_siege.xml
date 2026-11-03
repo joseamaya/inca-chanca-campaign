@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario version="7">
+  <Environment>
+    <SkySet>cumulus</SkySet>
+    <SunColor r="0.82" g="0.76" b="0.64"/>
+    <SunElevation angle="0.72"/>
+    <SunRotation angle="0.85"/>
+    <AmbientColor r="0.42" g="0.42" b="0.38"/>
+    <Fog>
+      <FogFactor>0</FogFactor>
+      <FogThickness>0.5</FogThickness>
+      <FogColor r="0.78" g="0.80" b="0.84"/>
+    </Fog>
+    <Water>
+      <WaterBody>
+        <Type>default</Type>
+        <Color r="0.12" g="0.18" b="0.22"/>
+        <Tint r="0.20" g="0.28" b="0.32"/>
+        <Height>-100</Height>
+        <Waviness>2</Waviness>
+        <Murkiness>0.6</Murkiness>
+        <WindAngle>0</WindAngle>
+      </WaterBody>
+    </Water>
+    <Postproc>
+      <Brightness>0</Brightness>
+      <Contrast>1.02</Contrast>
+      <Saturation>1.02</Saturation>
+      <Bloom>0.15</Bloom>
+      <PostEffect>default</PostEffect>
+    </Postproc>
+  </Environment>
+
+  <Camera>
+    <Position x="512.0" y="380" z="839.68"/>
+    <Rotation angle="0"/>
+    <Declination angle="0.9"/>
+  </Camera>
+
+  <ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": false,
+  "Description": "El ejército chanca rodea Cusco. La tradición recuerda la defensa de Carmenca y Chocos-Cachona. Protege el centro cívico y el santuario, resiste las oleadas y conserva con vida a Cusi Yupanqui.",
+  "Keywords": [
+    "campaign",
+    "inca",
+    "chanca",
+    "historical"
+  ],
+  "LockTeams": true,
+  "LastManStanding": false,
+  "Name": "2. El asedio de Cusco",
+  "PlayerData": [
+    "",
+    {
+      "AI": "",
+      "Civ": "inca",
+      "Color": {
+        "r": 190,
+        "g": 45,
+        "b": 35
+      },
+      "Name": "Cusco sitiado",
+      "Resources": {
+        "food": 2200,
+        "wood": 1200,
+        "stone": 1200,
+        "metal": 700
+      },
+      "Team": 1
+    },
+    {
+      "AI": "",
+      "Civ": "chanca",
+      "Color": {
+        "r": 170,
+        "g": 125,
+        "b": 35
+      },
+      "Name": "Huestes chancas",
+      "Resources": {
+        "food": 4000,
+        "wood": 2500,
+        "stone": 2000,
+        "metal": 1200
+      },
+      "Team": 2
+    }
+  ],
+  "DisableTreasures": true,
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/TriggerHelper.js",
+    "scenarios/inca_chanca_common.js",
+    "scenarios/inca_chanca_02_triggers.js"
+  ],
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+  <Entities>
+    <Entity uid="1100">
+      <Template>structures/inca/civil_centre</Template>
+      <Player>1</Player>
+      <Position x="450.00" z="560.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1101">
+      <Template>structures/inca/temple</Template>
+      <Player>1</Player>
+      <Position x="410.00" z="610.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1102">
+      <Template>structures/inca/barracks</Template>
+      <Player>1</Player>
+      <Position x="500.00" z="610.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1103">
+      <Template>structures/inca/market</Template>
+      <Player>1</Player>
+      <Position x="500.00" z="660.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1104">
+      <Template>structures/inca/storehouse</Template>
+      <Player>1</Player>
+      <Position x="380.00" z="520.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1105">
+      <Template>structures/inca/farmstead</Template>
+      <Player>1</Player>
+      <Position x="350.00" z="570.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10000">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="370.00" z="480.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10001">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="430.00" z="480.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10002">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="530.00" z="560.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10003">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="470.00" z="660.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10004">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="380.00" z="660.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10005">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="540.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10006">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="340.00" z="610.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10007">
+      <Template>structures/inca/house</Template>
+      <Player>1</Player>
+      <Position x="520.00" z="500.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10008">
+      <Template>structures/inca/field</Template>
+      <Player>1</Player>
+      <Position x="290.00" z="610.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10009">
+      <Template>structures/inca/field</Template>
+      <Player>1</Player>
+      <Position x="290.00" z="640.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10010">
+      <Template>structures/inca/field</Template>
+      <Player>1</Player>
+      <Position x="320.00" z="640.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10011">
+      <Template>structures/inca/field</Template>
+      <Player>1</Player>
+      <Position x="320.00" z="670.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10012">
+      <Template>structures/inca/defense_tower</Template>
+      <Player>1</Player>
+      <Position x="370.00" z="480.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10013">
+      <Template>structures/inca/defense_tower</Template>
+      <Player>1</Player>
+      <Position x="530.00" z="480.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10014">
+      <Template>structures/inca/defense_tower</Template>
+      <Player>1</Player>
+      <Position x="370.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10015">
+      <Template>structures/inca/defense_tower</Template>
+      <Player>1</Player>
+      <Position x="530.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1000">
+      <Template>units/inca/hero_cusi_yupanqui</Template>
+      <Player>1</Player>
+      <Position x="450.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="1003">
+      <Template>units/inca/hero_chanan_curi_coca</Template>
+      <Player>1</Player>
+      <Position x="430.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10016">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="430.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10017">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="438.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10018">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="446.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10019">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="454.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10020">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="430.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10021">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="438.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10022">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="446.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10023">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="454.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10024">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="430.00" z="611.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10025">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="438.00" z="611.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10026">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="446.00" z="611.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10027">
+      <Template>units/inca/infantry_maceman_b</Template>
+      <Player>1</Player>
+      <Position x="454.00" z="611.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10028">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="470.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10029">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="478.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10030">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="486.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10031">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="494.00" z="595.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10032">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="470.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10033">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="478.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10034">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="486.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10035">
+      <Template>units/inca/infantry_slinger_b</Template>
+      <Player>1</Player>
+      <Position x="494.00" z="603.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10036">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="405.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10037">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="413.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10038">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="421.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10039">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="429.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10040">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="405.00" z="583.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10041">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="413.00" z="583.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10042">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="421.00" z="583.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10043">
+      <Template>units/inca/infantry_spearman_b</Template>
+      <Player>1</Player>
+      <Position x="429.00" z="583.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10044">
+      <Template>units/inca/infantry_axeman_b</Template>
+      <Player>1</Player>
+      <Position x="490.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10045">
+      <Template>units/inca/infantry_axeman_b</Template>
+      <Player>1</Player>
+      <Position x="497.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10046">
+      <Template>units/inca/infantry_axeman_b</Template>
+      <Player>1</Player>
+      <Position x="504.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10047">
+      <Template>units/inca/infantry_axeman_b</Template>
+      <Player>1</Player>
+      <Position x="511.00" z="575.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10048">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="420.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10049">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="428.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10050">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="436.00" z="620.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10051">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="420.00" z="628.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10052">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="428.00" z="628.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10053">
+      <Template>units/inca/support_civilian</Template>
+      <Player>1</Player>
+      <Position x="436.00" z="628.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="2100">
+      <Template>structures/chanca/civil_centre</Template>
+      <Player>2</Player>
+      <Position x="820.00" z="300.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10054">
+      <Template>structures/chanca/barracks</Template>
+      <Player>2</Player>
+      <Position x="790.00" z="340.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10055">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="850.00" z="330.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10056">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="370.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10057">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="760.00" z="300.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10058">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="860.00" z="270.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10059">
+      <Template>structures/chanca/defense_tower</Template>
+      <Player>2</Player>
+      <Position x="850.00" z="360.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10060">
+      <Template>structures/chanca/barracks</Template>
+      <Player>2</Player>
+      <Position x="820.00" z="780.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10061">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="790.00" z="740.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10062">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="850.00" z="740.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10063">
+      <Template>structures/chanca/house</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="820.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10064">
+      <Template>structures/chanca/defense_tower</Template>
+      <Player>2</Player>
+      <Position x="790.00" z="810.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="2001">
+      <Template>units/chanca/hero_astoy_huaraca</Template>
+      <Player>2</Player>
+      <Position x="820.00" z="330.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="2002">
+      <Template>units/chanca/hero_tomay_huaraca</Template>
+      <Player>2</Player>
+      <Position x="805.00" z="330.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="2003">
+      <Template>units/chanca/hero_ancu_huallo</Template>
+      <Player>2</Player>
+      <Position x="820.00" z="790.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10065">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="290.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10066">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="808.00" z="290.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10067">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="816.00" z="290.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10068">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="824.00" z="290.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10069">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="298.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10070">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="808.00" z="298.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10071">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="816.00" z="298.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10072">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="824.00" z="298.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10073">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="306.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10074">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="808.00" z="306.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10075">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="816.00" z="306.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10076">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="824.00" z="306.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10077">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="840.00" z="300.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10078">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="848.00" z="300.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10079">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="856.00" z="300.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10080">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="840.00" z="308.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10081">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="848.00" z="308.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10082">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="856.00" z="308.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10083">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="780.00" z="315.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10084">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="788.00" z="315.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10085">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="796.00" z="315.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10086">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="780.00" z="323.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10087">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="788.00" z="323.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10088">
+      <Template>units/chanca/infantry_spearman_b</Template>
+      <Player>2</Player>
+      <Position x="796.00" z="323.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10089">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="810.00" z="760.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10090">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="818.00" z="760.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10091">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="826.00" z="760.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10092">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="834.00" z="760.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10093">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="842.00" z="760.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10094">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="810.00" z="768.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10095">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="818.00" z="768.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10096">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="826.00" z="768.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10097">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="834.00" z="768.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10098">
+      <Template>units/chanca/infantry_maceman_b</Template>
+      <Player>2</Player>
+      <Position x="842.00" z="768.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10099">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="800.00" z="800.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10100">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="808.00" z="800.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10101">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="816.00" z="800.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10102">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="824.00" z="800.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10103">
+      <Template>units/chanca/infantry_slinger_b</Template>
+      <Player>2</Player>
+      <Position x="832.00" z="800.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="2000">
+      <Template>units/chanca/relic_uscovilca</Template>
+      <Player>2</Player>
+      <Position x="820.00" z="550.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10104">
+      <Template>units/chanca/infantry_axeman_b</Template>
+      <Player>2</Player>
+      <Position x="805.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10105">
+      <Template>units/chanca/infantry_axeman_b</Template>
+      <Player>2</Player>
+      <Position x="812.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10106">
+      <Template>units/chanca/infantry_axeman_b</Template>
+      <Player>2</Player>
+      <Position x="819.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10107">
+      <Template>units/chanca/infantry_axeman_b</Template>
+      <Player>2</Player>
+      <Position x="826.00" z="540.00"/>
+      <Orientation y="0.0000"/>
+    </Entity>
+    <Entity uid="10108">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="399.20" z="258.21"/>
+      <Orientation y="0.5564"/>
+    </Entity>
+    <Entity uid="10109">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="641.29" z="477.68"/>
+      <Orientation y="6.2057"/>
+    </Entity>
+    <Entity uid="10110">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="133.41" z="558.71"/>
+      <Orientation y="3.8168"/>
+    </Entity>
+    <Entity uid="10111">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="132.32" z="492.86"/>
+      <Orientation y="2.0707"/>
+    </Entity>
+    <Entity uid="10112">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="272.71" z="762.68"/>
+      <Orientation y="2.6446"/>
+    </Entity>
+    <Entity uid="10113">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="177.09" z="401.50"/>
+      <Orientation y="5.7481"/>
+    </Entity>
+    <Entity uid="10114">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="418.82" z="248.11"/>
+      <Orientation y="0.4193"/>
+    </Entity>
+    <Entity uid="10115">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="438.41" z="805.98"/>
+      <Orientation y="3.2955"/>
+    </Entity>
+    <Entity uid="10116">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="763.03" z="566.99"/>
+      <Orientation y="3.7121"/>
+    </Entity>
+    <Entity uid="10117">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="438.15" z="182.60"/>
+      <Orientation y="4.4271"/>
+    </Entity>
+    <Entity uid="10118">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="444.11" z="163.52"/>
+      <Orientation y="1.1673"/>
+    </Entity>
+    <Entity uid="10119">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="112.26" z="885.82"/>
+      <Orientation y="4.4901"/>
+    </Entity>
+    <Entity uid="10120">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="699.70" z="924.02"/>
+      <Orientation y="3.9008"/>
+    </Entity>
+    <Entity uid="10121">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="505.61" z="279.40"/>
+      <Orientation y="4.3055"/>
+    </Entity>
+    <Entity uid="10122">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="680.25" z="894.09"/>
+      <Orientation y="5.8683"/>
+    </Entity>
+    <Entity uid="10123">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="504.67" z="809.54"/>
+      <Orientation y="6.0195"/>
+    </Entity>
+    <Entity uid="10124">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="485.87" z="277.00"/>
+      <Orientation y="1.1787"/>
+    </Entity>
+    <Entity uid="10125">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="646.61" z="781.54"/>
+      <Orientation y="1.8028"/>
+    </Entity>
+    <Entity uid="10126">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="233.91" z="918.59"/>
+      <Orientation y="2.1081"/>
+    </Entity>
+    <Entity uid="10127">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="672.98" z="673.59"/>
+      <Orientation y="4.8434"/>
+    </Entity>
+    <Entity uid="10128">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="793.38" z="888.81"/>
+      <Orientation y="2.0160"/>
+    </Entity>
+    <Entity uid="10129">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="654.12" z="357.38"/>
+      <Orientation y="1.8716"/>
+    </Entity>
+    <Entity uid="10130">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="707.72" z="193.65"/>
+      <Orientation y="6.0772"/>
+    </Entity>
+    <Entity uid="10131">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="620.29" z="482.37"/>
+      <Orientation y="5.7357"/>
+    </Entity>
+    <Entity uid="10132">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="184.28" z="344.29"/>
+      <Orientation y="0.8996"/>
+    </Entity>
+    <Entity uid="10133">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="366.38" z="754.04"/>
+      <Orientation y="0.9413"/>
+    </Entity>
+    <Entity uid="10134">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="732.57" z="594.73"/>
+      <Orientation y="2.0709"/>
+    </Entity>
+    <Entity uid="10135">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="807.20" z="125.87"/>
+      <Orientation y="1.5302"/>
+    </Entity>
+    <Entity uid="10136">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="414.73" z="931.62"/>
+      <Orientation y="3.4497"/>
+    </Entity>
+    <Entity uid="10137">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="648.02" z="474.73"/>
+      <Orientation y="1.2483"/>
+    </Entity>
+    <Entity uid="10138">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="177.79" z="727.71"/>
+      <Orientation y="4.5435"/>
+    </Entity>
+    <Entity uid="10139">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="926.94" z="302.10"/>
+      <Orientation y="2.4740"/>
+    </Entity>
+    <Entity uid="10140">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="130.67" z="762.99"/>
+      <Orientation y="4.6042"/>
+    </Entity>
+    <Entity uid="10141">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="169.40" z="691.22"/>
+      <Orientation y="2.1316"/>
+    </Entity>
+    <Entity uid="10142">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="454.79" z="260.08"/>
+      <Orientation y="4.3227"/>
+    </Entity>
+    <Entity uid="10143">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="577.72" z="109.36"/>
+      <Orientation y="0.9395"/>
+    </Entity>
+    <Entity uid="10144">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="708.14" z="203.44"/>
+      <Orientation y="2.9331"/>
+    </Entity>
+    <Entity uid="10145">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="654.74" z="233.22"/>
+      <Orientation y="3.1281"/>
+    </Entity>
+    <Entity uid="10146">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="444.64" z="208.49"/>
+      <Orientation y="4.9555"/>
+    </Entity>
+    <Entity uid="10147">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="159.63" z="787.59"/>
+      <Orientation y="2.0476"/>
+    </Entity>
+    <Entity uid="10148">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="393.20" z="279.15"/>
+      <Orientation y="5.3693"/>
+    </Entity>
+    <Entity uid="10149">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="931.93" z="249.03"/>
+      <Orientation y="3.9491"/>
+    </Entity>
+    <Entity uid="10150">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="126.41" z="425.66"/>
+      <Orientation y="1.3816"/>
+    </Entity>
+    <Entity uid="10151">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="623.69" z="261.22"/>
+      <Orientation y="3.8465"/>
+    </Entity>
+    <Entity uid="10152">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="198.44" z="813.06"/>
+      <Orientation y="0.3384"/>
+    </Entity>
+    <Entity uid="10153">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="714.63" z="842.15"/>
+      <Orientation y="0.8476"/>
+    </Entity>
+    <Entity uid="10154">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="524.88" z="913.39"/>
+      <Orientation y="0.9452"/>
+    </Entity>
+    <Entity uid="10155">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="794.05" z="657.10"/>
+      <Orientation y="0.4532"/>
+    </Entity>
+    <Entity uid="10156">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="234.07" z="869.63"/>
+      <Orientation y="0.4112"/>
+    </Entity>
+    <Entity uid="10157">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="390.46" z="119.36"/>
+      <Orientation y="1.6192"/>
+    </Entity>
+    <Entity uid="10158">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="270.59" z="757.05"/>
+      <Orientation y="0.5065"/>
+    </Entity>
+    <Entity uid="10159">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="184.00" z="547.80"/>
+      <Orientation y="1.2536"/>
+    </Entity>
+    <Entity uid="10160">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="528.60" z="134.68"/>
+      <Orientation y="1.1761"/>
+    </Entity>
+    <Entity uid="10161">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="517.49" z="811.97"/>
+      <Orientation y="3.3503"/>
+    </Entity>
+    <Entity uid="10162">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="543.53" z="262.16"/>
+      <Orientation y="4.5478"/>
+    </Entity>
+    <Entity uid="10163">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="826.95" z="121.95"/>
+      <Orientation y="5.9987"/>
+    </Entity>
+    <Entity uid="10164">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="135.24" z="430.62"/>
+      <Orientation y="0.4822"/>
+    </Entity>
+    <Entity uid="10165">
+      <Template>gaia/tree/pine</Template>
+      <Player>0</Player>
+      <Position x="513.63" z="388.89"/>
+      <Orientation y="3.2796"/>
+    </Entity>
+    <Entity uid="10166">
+      <Template>gaia/tree/pine_black</Template>
+      <Player>0</Player>
+      <Position x="678.97" z="642.75"/>
+      <Orientation y="0.9526"/>
+    </Entity>
+    <Entity uid="10167">
+      <Template>gaia/tree/fir</Template>
+      <Player>0</Player>
+      <Position x="558.66" z="145.30"/>
+      <Orientation y="4.0381"/>
+    </Entity>
+    <Entity uid="10168">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="126.13" z="561.22"/>
+      <Orientation y="1.4387"/>
+    </Entity>
+    <Entity uid="10169">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="131.00" z="500.31"/>
+      <Orientation y="1.9234"/>
+    </Entity>
+    <Entity uid="10170">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="138.67" z="750.47"/>
+      <Orientation y="1.4592"/>
+    </Entity>
+    <Entity uid="10171">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="647.10" z="442.00"/>
+      <Orientation y="4.9540"/>
+    </Entity>
+    <Entity uid="10172">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="343.43" z="198.51"/>
+      <Orientation y="2.1612"/>
+    </Entity>
+    <Entity uid="10173">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="659.76" z="355.60"/>
+      <Orientation y="5.1747"/>
+    </Entity>
+    <Entity uid="10174">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="387.95" z="250.99"/>
+      <Orientation y="3.6164"/>
+    </Entity>
+    <Entity uid="10175">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="112.54" z="537.08"/>
+      <Orientation y="3.7301"/>
+    </Entity>
+    <Entity uid="10176">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="215.97" z="128.63"/>
+      <Orientation y="2.9599"/>
+    </Entity>
+    <Entity uid="10177">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="625.11" z="116.86"/>
+      <Orientation y="4.9615"/>
+    </Entity>
+    <Entity uid="10178">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="369.59" z="320.25"/>
+      <Orientation y="3.6314"/>
+    </Entity>
+    <Entity uid="10179">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="163.54" z="774.58"/>
+      <Orientation y="5.6842"/>
+    </Entity>
+    <Entity uid="10180">
+      <Template>gaia/rock/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="108.19" z="373.13"/>
+      <Orientation y="0.4779"/>
+    </Entity>
+    <Entity uid="10181">
+      <Template>gaia/rock/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="190.73" z="756.20"/>
+      <Orientation y="4.3607"/>
+    </Entity>
+    <Entity uid="10182">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="279.90" z="92.91"/>
+      <Orientation y="3.9475"/>
+    </Entity>
+    <Entity uid="10183">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="871.57" z="438.34"/>
+      <Orientation y="3.1261"/>
+    </Entity>
+    <Entity uid="10184">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="578.02" z="717.33"/>
+      <Orientation y="4.8705"/>
+    </Entity>
+    <Entity uid="10185">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="192.86" z="822.89"/>
+      <Orientation y="4.7308"/>
+    </Entity>
+    <Entity uid="10186">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="181.09" z="425.00"/>
+      <Orientation y="1.8170"/>
+    </Entity>
+    <Entity uid="10187">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="684.01" z="932.68"/>
+      <Orientation y="2.5976"/>
+    </Entity>
+    <Entity uid="10188">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="694.34" z="349.30"/>
+      <Orientation y="4.3400"/>
+    </Entity>
+    <Entity uid="10189">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="824.60" z="618.03"/>
+      <Orientation y="3.5071"/>
+    </Entity>
+    <Entity uid="10190">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="612.09" z="195.85"/>
+      <Orientation y="1.1647"/>
+    </Entity>
+    <Entity uid="10191">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="619.30" z="853.14"/>
+      <Orientation y="0.5356"/>
+    </Entity>
+    <Entity uid="10192">
+      <Template>gaia/ore/alpine_large</Template>
+      <Player>0</Player>
+      <Position x="578.52" z="873.86"/>
+      <Orientation y="4.2823"/>
+    </Entity>
+    <Entity uid="10193">
+      <Template>gaia/ore/alpine_small</Template>
+      <Player>0</Player>
+      <Position x="844.33" z="146.98"/>
+      <Orientation y="4.3666"/>
+    </Entity>
+    <Entity uid="10194">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="544.30" z="779.50"/>
+      <Orientation y="5.8525"/>
+    </Entity>
+    <Entity uid="10195">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="130.21" z="99.63"/>
+      <Orientation y="0.9345"/>
+    </Entity>
+    <Entity uid="10196">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="676.19" z="228.03"/>
+      <Orientation y="0.1776"/>
+    </Entity>
+    <Entity uid="10197">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="628.73" z="264.88"/>
+      <Orientation y="1.3287"/>
+    </Entity>
+    <Entity uid="10198">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="667.73" z="551.96"/>
+      <Orientation y="4.3792"/>
+    </Entity>
+    <Entity uid="10199">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="633.21" z="97.04"/>
+      <Orientation y="3.7330"/>
+    </Entity>
+    <Entity uid="10200">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="457.38" z="929.85"/>
+      <Orientation y="3.5201"/>
+    </Entity>
+    <Entity uid="10201">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="261.88" z="888.27"/>
+      <Orientation y="0.2541"/>
+    </Entity>
+    <Entity uid="10202">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="335.48" z="755.86"/>
+      <Orientation y="4.2189"/>
+    </Entity>
+    <Entity uid="10203">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="249.92" z="715.44"/>
+      <Orientation y="1.9037"/>
+    </Entity>
+    <Entity uid="10204">
+      <Template>gaia/fruit/berry_01</Template>
+      <Player>0</Player>
+      <Position x="595.32" z="421.63"/>
+      <Orientation y="3.0038"/>
+    </Entity>
+    <Entity uid="10205">
+      <Template>gaia/fruit/berry_02</Template>
+      <Player>0</Player>
+      <Position x="615.96" z="155.05"/>
+      <Orientation y="4.7104"/>
+    </Entity>
+    <Entity uid="10206">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="328.24" z="148.08"/>
+      <Orientation y="1.3302"/>
+    </Entity>
+    <Entity uid="10207">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="192.60" z="190.97"/>
+      <Orientation y="4.5669"/>
+    </Entity>
+    <Entity uid="10208">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="199.14" z="602.37"/>
+      <Orientation y="5.3423"/>
+    </Entity>
+    <Entity uid="10209">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="129.67" z="403.97"/>
+      <Orientation y="5.2029"/>
+    </Entity>
+    <Entity uid="10210">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="717.78" z="442.69"/>
+      <Orientation y="0.0264"/>
+    </Entity>
+    <Entity uid="10211">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="681.96" z="809.24"/>
+      <Orientation y="2.3479"/>
+    </Entity>
+    <Entity uid="10212">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="202.61" z="432.95"/>
+      <Orientation y="1.0674"/>
+    </Entity>
+    <Entity uid="10213">
+      <Template>gaia/fauna_deer</Template>
+      <Player>0</Player>
+      <Position x="258.32" z="865.35"/>
+      <Orientation y="5.3186"/>
+    </Entity>
+    <Entity uid="9011">
+      <Template>trigger/trigger_point_A</Template>
+      <Player>0</Player>
+      <Position x="10.00" z="10.00"/>
+      <Orientation y="0"/>
+    </Entity>
+    <Entity uid="9012">
+      <Template>trigger/trigger_point_A</Template>
+      <Player>0</Player>
+      <Position x="30.00" z="10.00"/>
+      <Orientation y="0"/>
+    </Entity>
+    <Entity uid="9013">
+      <Template>trigger/trigger_point_A</Template>
+      <Player>0</Player>
+      <Position x="50.00" z="10.00"/>
+      <Orientation y="0"/>
+    </Entity>
+    <Entity uid="9014">
+      <Template>trigger/trigger_point_A</Template>
+      <Player>0</Player>
+      <Position x="70.00" z="10.00"/>
+      <Orientation y="0"/>
+    </Entity>
+    <Entity uid="9015">
+      <Template>trigger/trigger_point_A</Template>
+      <Player>0</Player>
+      <Position x="90.00" z="10.00"/>
+      <Orientation y="0"/>
+    </Entity>
+  </Entities>
+  <Paths/>
+</Scenario>

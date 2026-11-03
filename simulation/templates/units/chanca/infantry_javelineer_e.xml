@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chanca/infantry_javelineer_a">
+  <Identity>
+    <Lang>quechua</Lang>
+    <Icon>units/chanca_javelinist.png</Icon>
+    <SpecificName>Chanka antañauichi</SpecificName>
+    <GenericName>Jabalínero chanca</GenericName>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/chancas/infantry_javelinist_e.xml</Actor>
+  </VisualActor>
+</Entity>

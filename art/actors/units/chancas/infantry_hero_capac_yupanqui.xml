@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_hoplite.xml">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_chanca_hero.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/chanca_alabarda_h.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/chanca_h_3.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/chanca_shield_r.xml" attachpoint="shield"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="1">
+      <textures>
+        <texture file="skeletal/inca_h_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

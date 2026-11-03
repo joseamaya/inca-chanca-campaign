@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="relic">
+      <mesh>props/special/catafalque_two_wheel.dae</mesh>
+      <textures>
+        <texture file="props/chanca_catafalque.png" name="baseTex"/>
+        <texture file="props/chanca_catafalque_spec.png" name="specTex"/>
+        <texture file="props/chanca_catafalque_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

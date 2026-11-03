@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">teambonuses/chanca_player_teambonus</Auras>
+  <Identity>
+    <Civ>chanca</Civ>
+    <GenericName>Chancas (Confederación)</GenericName>
+    <History>La confederación chanca agrupó jefaturas de los actuales departamentos de Apurímac, Ayacucho y Huancavelica. En 1438 atacó el Curacazgo del Cusco y fue derrotada por Cusi Yupanqui, el futuro Pachacútec.</History>
+    <Icon>emblems/emblem_chanca.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">special/formations/line_closed</Formations>
+  </Player>
+</Entity>

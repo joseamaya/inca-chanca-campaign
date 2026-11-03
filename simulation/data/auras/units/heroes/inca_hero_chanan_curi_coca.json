@@ -1,0 +1,25 @@
+{
+	"type": "range",
+	"radius": 20,
+	"affects": [
+		"Soldier",
+		"Structure"
+	],
+	"modifications": [
+		{
+			"value": "Health/RegenRate",
+			"add": 0.5
+		},
+		{
+			"value": "Resistance/Entity/Damage/Hack",
+			"add": 1
+		},
+		{
+			"value": "Resistance/Entity/Damage/Pierce",
+			"add": 1
+		}
+	],
+	"auraName": "Defensa de Cusco",
+	"auraDescription": "Soldados y estructuras cercanas +0.5 regeneración y +1 resistencia.",
+	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre_military_colony">
+  <Footprint>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>chanca</Civ>
+    <GenericName>Colonia militar chanca</GenericName>
+	  <SpecificName>Marka</SpecificName>
+    <Classes datatype="tokens">Tambo</Classes>
+    <Tooltip>Colonia militar chanca, usada para entrenar unidades militares avanzadas.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="36.0" depth="36.0"/> 
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_maceman_b
+      units/{civ}/champion_infantry_archer
+      units/{civ}/infantry_chaski
+      units/{civ}/mechanical_siege_ram
+    </Entities>
+  </Trainer>
+  <TrainingRestrictions>
+    <Category>Tambo</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>structures/chancas/inca_tambo.xml</Actor>
+    <FoundationActor>structures/fndn_9x9.xml</FoundationActor>
+  </VisualActor>
+</Entity>

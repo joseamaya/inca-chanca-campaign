@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">units/heroes/chanca_hero_ancu_huallo</Auras>
+  <Capturable>
+    <CapturePoints>150</CapturePoints>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+    <RegenRate>5</RegenRate>
+  </Capturable>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>chanca</Civ>
+    <GenericName>Anccu Huallo</GenericName>
+    <SpecificName>Anccu Huallo</SpecificName>
+    <Icon>units/chanca_hero_3.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chancas/hero_ancu_huallo.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,32 @@
+{
+	"genericName": "Huaraca",
+	"description": "La honda andina podía lanzar piedras con gran fuerza y era temida por su alcance.",
+	"cost": {
+		"wood": 200,
+		"metal": 100
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "chanca"
+			}
+		]
+	},
+	"requirementsTooltip": "Desbloqueado en Fase Pueblo.",
+	"icon": "bow.png",
+	"researchTime": 40,
+	"tooltip": "Honderos +15% alcance.",
+	"modifications": [
+		{
+			"value": "Attack/Ranged/MaxRange",
+			"multiply": 1.15
+		}
+	],
+	"affects": [
+		"Slinger"
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

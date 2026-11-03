@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chanca/support_civilian">
+  <Cost>
+    <BuildTime>30</BuildTime>
+  </Cost>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Icon>units/chanca_female.png</Icon>
+    <SpecificName>Chanka runa</SpecificName>
+    <GenericName>Campesinos chancas</GenericName>
+    <Requirements>
+      <Techs datatype="tokens">unlock_civilians_house_generic</Techs>
+    </Requirements>
+  </Identity>
+</Entity>

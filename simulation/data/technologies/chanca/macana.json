@@ -1,0 +1,40 @@
+{
+	"genericName": "Macana chanca",
+	"description": "El garrote de madera dura, a veces con cabeza de piedra o bronce, era un arma central en la guerra andina.",
+	"cost": {
+		"metal": 200
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "chanca"
+			}
+		]
+	},
+	"requirementsTooltip": "Desbloqueado en Fase Pueblo.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Macemen y axemen +15% daño cuerpo a cuerpo.",
+	"modifications": [
+		{
+			"value": "Attack/Melee/Damage/Hack",
+			"multiply": 1.15
+		},
+		{
+			"value": "Attack/Melee/Damage/Pierce",
+			"multiply": 1.15
+		},
+		{
+			"value": "Attack/Melee/Damage/Crush",
+			"multiply": 1.15
+		}
+	],
+	"affects": [
+		"Maceman",
+		"Axeman"
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

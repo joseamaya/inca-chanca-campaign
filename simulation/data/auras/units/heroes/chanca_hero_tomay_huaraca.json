@@ -1,0 +1,20 @@
+{
+	"type": "range",
+	"radius": 22,
+	"affects": [
+		"Soldier"
+	],
+	"modifications": [
+		{
+			"value": "UnitMotion/WalkSpeed",
+			"multiply": 1.15
+		},
+		{
+			"value": "Vision/Range",
+			"multiply": 1.1
+		}
+	],
+	"auraName": "Marcha de la puna",
+	"auraDescription": "Soldados cercanos +15% velocidad y +10% visión.",
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
+}

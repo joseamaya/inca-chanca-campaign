@@ -1,0 +1,36 @@
+{
+	"genericName": "Confederación chanca",
+	"description": "Las jefaturas chancas coordinaban sus fuerzas mediante alianzas y botín compartido.",
+	"cost": {
+		"food": 300,
+		"wood": 200
+	},
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_town"
+			},
+			{
+				"civ": "chanca"
+			}
+		]
+	},
+	"requirementsTooltip": "Desbloqueado en Fase Pueblo.",
+	"icon": "parade_of_daphne.png",
+	"researchTime": 40,
+	"tooltip": "Infantería ciudadana -10% coste de comida y madera.",
+	"modifications": [
+		{
+			"value": "Cost/Resources/food",
+			"multiply": 0.9
+		},
+		{
+			"value": "Cost/Resources/wood",
+			"multiply": 0.9
+		}
+	],
+	"affects": [
+		"Citizen Infantry"
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

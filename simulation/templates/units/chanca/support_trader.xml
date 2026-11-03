@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Identity>
+    <Lang>quechua</Lang>
+    <GenericName>Comerciante chanca</GenericName>
+    <Civ>chanca</Civ>
+    <SpecificName>Qhatuq</SpecificName>
+    <Icon>units/chanca_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chancas/trader.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>chanca</Civ>
+    <GenericName>Kancha chanca</GenericName>
+    <SpecificName>Kancha</SpecificName>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+      <Tooltip>Unlocked in Town Phase.</Tooltip>
+    </Requirements>
+    <Tooltip>Casa comunal chanca, usada para entrenar civiles y unidades militares básicas.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="18.0" depth="18.0"/>
+  </Obstruction>
+   <Population>
+    <Bonus op="add">2</Bonus>
+  </Population>
+    <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/support_civilian_house
+      units/{civ}/infantry_slinger_b
+      units/{civ}/infantry_macerman_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/chancas/inca_house_comunal.xml</Actor>
+  </VisualActor>
+</Entity>

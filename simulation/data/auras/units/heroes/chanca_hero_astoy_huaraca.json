@@ -1,0 +1,24 @@
+{
+	"type": "range",
+	"radius": 22,
+	"affects": [
+		"Soldier"
+	],
+	"modifications": [
+		{
+			"value": "Attack/Melee/Damage/Hack",
+			"multiply": 1.18
+		},
+		{
+			"value": "Attack/Melee/Damage/Pierce",
+			"multiply": 1.18
+		},
+		{
+			"value": "Attack/Melee/Damage/Crush",
+			"multiply": 1.18
+		}
+	],
+	"auraName": "Furia chanca",
+	"auraDescription": "Soldados cercanos +18% daño cuerpo a cuerpo.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

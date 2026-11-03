@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/inca/hero_pachacutec">
+  <Identity>
+    <Lang>quechua</Lang>
+    <GenericName>Cusi Yupanqui</GenericName>
+    <SpecificName>Cusi Yupanqui</SpecificName>
+    <Icon>units/inca_hero_1.png</Icon>
+  </Identity>
+</Entity>

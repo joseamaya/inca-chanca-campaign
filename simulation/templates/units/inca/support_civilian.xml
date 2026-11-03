@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+   <Builder>
+    <Entities datatype="tokens">
+      structures/inca/military_colony
+      structures/inca/kancha
+    </Entities>
+  </Builder>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>inca</Civ>
+    <SpecificName>Warmi</SpecificName>
+    <GenericName>Quíchua Farmers</GenericName>
+    <Icon>units/inca_female.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/incas/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

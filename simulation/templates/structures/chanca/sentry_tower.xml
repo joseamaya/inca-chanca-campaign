@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <Identity>
+    <GenericName>Atalaya chanca</GenericName>
+    <Civ>chanca</Civ>
+    <SpecificName>Pukara</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/chancas/inca_wooden_tower.xml</Actor>
+  </VisualActor>
+</Entity>

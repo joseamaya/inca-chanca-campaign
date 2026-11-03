@@ -1,0 +1,54 @@
+{
+	"Name": "La Guerra Inca-Chanca (c. 1438)",
+	"Description": "Campaña histórica sobre el conflicto entre el Curacazgo del Cusco y la confederación chanca. Cuatro misiones y un epílogo, con notas sobre las fuentes y las incertidumbres.",
+	"Image": "session/icons/mappreview/inca_chanca_campaign.png",
+	"Levels": {
+		"m1": {
+			"Name": "1. La amenaza chanca",
+			"Map": "scenarios/inca_chanca_01_cusco.xml",
+			"MapType": "scenario",
+			"Description": "Cusco, c. 1438. Los mensajeros chancas exigen la sumisión del Curacazgo. Viracocha Inca e Inca Urco abandonan la ciudad; Cusi Yupanqui decide resistir. Reúne recursos, fortifica Cusco y rechaza las primeras incursiones.",
+			"Preview": "session/icons/mappreview/inca_chanca_01_cusco.png"
+		},
+		"m2": {
+			"Name": "2. El asedio de Cusco",
+			"Map": "scenarios/inca_chanca_02_siege.xml",
+			"MapType": "scenario",
+			"Description": "El ejército chanca rodea Cusco. La tradición recuerda la defensa de Carmenca y Chocos-Cachona. Protege el centro cívico y el santuario, resiste las oleadas y conserva con vida a Cusi Yupanqui.",
+			"Preview": "session/icons/mappreview/inca_chanca_02_siege.png",
+			"Requires": "m1"
+		},
+		"m3": {
+			"Name": "3. Yahuar Pampa",
+			"Map": "scenarios/inca_chanca_03_pampa.xml",
+			"MapType": "scenario",
+			"Description": "La pampa de Ichupampa, luego llamada Yahuar Pampa, es el escenario de la batalla decisiva. Mantén la línea, elimina o captura a los capitanes chancas y toma la momia de Uscovilca. La tradición de los pururaucas se presenta como leyenda, no como hecho comprobado.",
+			"Preview": "session/icons/mappreview/inca_chanca_03_pampa.png",
+			"Requires": "m2"
+		},
+		"m4": {
+			"Name": "4. La campaña chanca",
+			"Map": "scenarios/inca_chanca_04_andahuaylas.xml",
+			"MapType": "scenario",
+			"Description": "Cusi Yupanqui lleva la guerra al territorio chanca, hacia Andahuaylas y el Apurímac. Toma la fortaleza de altura, derrota o captura a Anccu Huallo y decide el destino de los supervivientes. La incorporación de guerreros chancas al ejército inca fue una práctica documentada.",
+			"Preview": "session/icons/mappreview/inca_chanca_04_andahuaylas.png",
+			"Requires": "m3"
+		},
+		"epilogue": {
+			"Name": "Epílogo: Pachacútec",
+			"Map": "scenarios/inca_chanca_05_epilogo.xml",
+			"MapType": "scenario",
+			"Description": "Cusco, después de la victoria. Cusi Yupanqui asume el mando y toma el nombre de Pachacútec. La tradición recuerda la victoria como el inicio del Tawantinsuyu; las crónicas difieren en los detalles y en la fecha exacta.",
+			"Preview": "session/icons/mappreview/inca_chanca_05_epilogo.png",
+			"Requires": "m4"
+		}
+	},
+	"Order": [
+		"m1",
+		"m2",
+		"m3",
+		"m4",
+		"epilogue"
+	],
+	"ShowUnavailable": false
+}

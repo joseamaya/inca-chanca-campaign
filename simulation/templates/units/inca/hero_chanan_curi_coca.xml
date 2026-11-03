@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/inca/support_healer_b">
+  <Auras datatype="tokens">units/heroes/inca_hero_chanan_curi_coca</Auras>
+  <Promotion disable=""/>
+  <Identity>
+    <Lang>quechua</Lang>
+    <GenericName>Chanan Curi Coca</GenericName>
+    <SpecificName>Chanan Quri Quka</SpecificName>
+    <Icon>units/inca_support_healer.png</Icon>
+  </Identity>
+</Entity>

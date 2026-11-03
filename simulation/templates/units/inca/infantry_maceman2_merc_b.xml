@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_maceman">
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>inca</Civ>
+    <SelectionGroupName>units/inca infantry_swordsman_merc_b</SelectionGroupName>
+    <GenericName>Chincha Mercenary Maceman</GenericName>
+    <SpecificName>Wisa Chincha</SpecificName>
+    <Tooltip>.</Tooltip>
+    <Icon>units/inca_chinchas.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/inca/infantry_maceman2_merc_b</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.3</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/incas/infantry_merc_chincha_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,89 @@
+{
+	"Code": "chanca",
+	"Culture": "inca",
+	"Region": [
+		"andes"
+	],
+	"Music": [
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Confederación chanca",
+			"History": "Las crónicas describen a los chancas como una confederación laxa de jefaturas de Andahuaylas, Apurímac y Huancavelica.",
+			"Description": "Infantería ciudadana más barata y rápida de entrenar."
+		}
+	],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/chanca/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/chanca/civil_centre"
+		},
+		{
+			"Template": "units/chanca/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/chanca/infantry_maceman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/chanca/infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/chanca/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/chanca/infantry_chaski",
+			"Count": 1
+		}
+	],
+	"AINames": [
+		"Uscovilca",
+		"Astoy Huaraca",
+		"Tomay Huaraca",
+		"Anccu Huallo",
+		"Hancohuallu",
+		"Malma",
+		"Iquicha",
+		"Vilca",
+		"Parkos",
+		"Uran Chanka",
+		"Hanan Chanka",
+		"Hurin Chanka"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_infantry_ranged_b": "units/chanca/infantry_slinger_b",
+		"skirmish/units/default_infantry_melee_b": "units/chanca/infantry_maceman_b",
+		"skirmish/units/special_starting_unit": "units/chanca/infantry_chaski",
+		"skirmish/structures/default_house_10": "structures/chanca/house",
+		"skirmish/units/default_cavalry": "units/chanca/infantry_chaski",
+		"skirmish/units/default_ship_trireme": "",
+		"skirmish/units/default_ship_merchant": "",
+		"skirmish/units/default_ship_fishing": "",
+		"skirmish/units/default_support_healer": "units/chanca/support_healer_b",
+		"skirmish/units/default_support_trader": "units/chanca/support_trader",
+		"skirmish/structures/default_defense_tower": "structures/chanca/defense_tower"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/chanca/infantry_maceman_a">
+  <Identity>
+    <Lang>quechua</Lang>
+    <Icon>units/chanca_maceman.png</Icon>
+    <SpecificName>Chanka macana</SpecificName>
+    <GenericName>Guerrero chanca con macana</GenericName>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/chancas/infantry_maceman_e.xml</Actor>
+  </VisualActor>
+</Entity>

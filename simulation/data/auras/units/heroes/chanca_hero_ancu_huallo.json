@@ -1,0 +1,24 @@
+{
+	"type": "range",
+	"radius": 22,
+	"affects": [
+		"Soldier"
+	],
+	"modifications": [
+		{
+			"value": "Attack/Capture/Capture",
+			"add": 1
+		},
+		{
+			"value": "Resistance/Entity/Damage/Hack",
+			"add": 1
+		},
+		{
+			"value": "Resistance/Entity/Damage/Pierce",
+			"add": 1
+		}
+	],
+	"auraName": "Señor de la confederación",
+	"auraDescription": "Soldados cercanos +1 captura y +1 resistencia.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

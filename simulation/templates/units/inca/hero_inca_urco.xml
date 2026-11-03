@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/inca/hero_pachacutec">
+  <Identity>
+    <Lang>quechua</Lang>
+    <GenericName>Inca Urco</GenericName>
+    <SpecificName>Inca Urco</SpecificName>
+    <Icon>units/inca_hero_2.png</Icon>
+  </Identity>
+</Entity>

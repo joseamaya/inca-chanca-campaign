@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger_chaski">
+  <Attack>
+    <Ranged>
+      <AttackName>Sling</AttackName>
+      <Damage>
+        <Pierce>4.0</Pierce>
+        <Crush>0.5</Crush>
+      </Damage>
+      <MaxRange>38</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+      <Projectile>
+        <Speed>70</Speed>
+        <Spread>3</Spread>
+        <Gravity>30</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>chanca</Civ>
+    <SelectionGroupName>units/chanca/chaski</SelectionGroupName>
+    <GenericName>Corredor chanca</GenericName>
+    <SpecificName>Chaski</SpecificName>
+    <Icon>units/chanca_chaski.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chancas/infantry_chaski.xml</Actor>
+  </VisualActor>
+</Entity>

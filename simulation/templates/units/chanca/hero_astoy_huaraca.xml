@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">units/heroes/chanca_hero_astoy_huaraca</Auras>
+  <Capturable>
+    <CapturePoints>150</CapturePoints>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+    <RegenRate>5</RegenRate>
+  </Capturable>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>chanca</Civ>
+    <GenericName>Astoy Huaraca</GenericName>
+    <SpecificName>Astoy Huaraca</SpecificName>
+    <Icon>units/chanca_hero_1.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chancas/hero_astoy_huaraca.xml</Actor>
+  </VisualActor>
+</Entity>

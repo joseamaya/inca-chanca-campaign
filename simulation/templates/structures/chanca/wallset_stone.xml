@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <GenericName>Muralla de piedra chanca</GenericName>
+    <Civ>chanca</Civ>
+    <SpecificName>Qincha</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/chanca/wall_tower</Tower>
+      <Gate>structures/chanca/wall_gate</Gate>
+      <WallLong>structures/chanca/wall_long</WallLong>
+      <WallMedium>structures/chanca/wall_medium</WallMedium>
+      <WallShort>structures/chanca/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

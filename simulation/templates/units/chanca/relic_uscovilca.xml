@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_catafalque">
+  <Auras datatype="tokens">units/heroes/chanca_relic_uscovilca</Auras>
+  <Capturable>
+    <CapturePoints>600</CapturePoints>
+    <RegenRate>5</RegenRate>
+  </Capturable>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>chanca</Civ>
+    <GenericName>Momia de Uscovilca</GenericName>
+    <SpecificName>Uscovilca</SpecificName>
+    <Icon>units/chanca_relic.png</Icon>
+    <Tooltip>Reliquia sagrada de la confederación chanca. Capturarla quiebra su moral.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chancas/relic_uscovilca.xml</Actor>
+  </VisualActor>
+</Entity>

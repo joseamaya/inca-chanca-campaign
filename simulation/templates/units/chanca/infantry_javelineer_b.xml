@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+   <Builder>
+    <Entities datatype="tokens" replace="">
+      structures/chanca/civil_centre
+      structures/chanca/house
+      structures/chanca/storehouse
+      structures/chanca/farmstead
+      structures/chanca/field
+      structures/chanca/barracks
+      structures/chanca/forge
+      structures/chanca/temple
+      structures/chanca/market
+      structures/chanca/outpost
+      structures/chanca/sentry_tower
+      structures/chanca/defense_tower
+      structures/chanca/fortress
+      structures/chanca/military_colony
+      structures/chanca/kancha
+      structures/chanca/wallset_stone
+      structures/wallset_palisade
+    </Entities>
+  </Builder>
+  <Identity>
+    <Lang>quechua</Lang>
+    <Civ>chanca</Civ>
+    <SelectionGroupName>units/chanca/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Jabalínero chanca</GenericName>
+    <SpecificName>Chanka antañauichi</SpecificName>
+    <Tooltip>.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Icon>units/chanca_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/chanca/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/chancas/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

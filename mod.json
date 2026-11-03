@@ -1,0 +1,15 @@
+{
+	"name": "inca-chanca",
+	"version": "0.3.0",
+	"label": "La Guerra Inca-Chanca (c. 1438) — Beta",
+	"url": "https://github.com/joseamaya/inca-chanca-campaign",
+	"description": "Beta de la campaña histórica sobre la guerra entre el Curacazgo del Cusco y la confederación chanca, con una civilización chanca jugable. Requiere el mod Incas 0 A.D. 0.28.",
+	"dependencies": [
+		"0ad=0.28.0",
+		"incas0ad=0.28.0"
+	],
+	"type": [
+		"Campaign",
+		"Factions"
+	]
+}
